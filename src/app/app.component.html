@@ -1,4 +1,7 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<div class="container">
+  <ul>
+    <li *ngFor="let nome of nomes; let i = index" class="list-group-item">
+      {{ nome }}
+    </li>
+  </ul>
+</div>
